@@ -9,20 +9,16 @@ attr_accessor :email
 
   def initialize(email)
     @email = email 
-    
   end  
-  
   
   
   def parse 
    #binding.pry 
    
    emails.split(/, | /) 
-    ## "".split you can ONLY split a string!
+  
     
     #email_array.detect{|email| email ==  }
-    
-    
   end 
   
 end 
