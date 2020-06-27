@@ -16,11 +16,11 @@ attr_accessor :email
   
   def parse 
    # binding.pry 
-   emails = @@allemail.join(" ")
-   email_array = emails.split(/, | /) 
+   emails = @@allemail
+   emails.split(/, | /) 
     ## "".split you can ONLY split a string!
     
-    email_array.detect{|email| email ==  }
+    #email_array.detect{|email| email ==  }
     
     
   end 
