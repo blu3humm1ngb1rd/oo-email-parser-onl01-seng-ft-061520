@@ -5,7 +5,7 @@ require 'pry'
 # or whitespace (' '). gets.strip 
 class EmailAddressParser
 attr_accessor :email 
-@@allemail = []
+
 
   def initialize(email)
     @email = email 
