@@ -15,10 +15,8 @@ attr_accessor :email
   def parse 
    #binding.pry 
    
-   email.split(/, | /) 
-  
-    
-    #email_array.detect{|email| email ==  }
+   email_array = email.split(/, | /) 
+   email_array.detect{|email| email == email}
   end 
   
 end 
