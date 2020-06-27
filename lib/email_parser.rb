@@ -14,7 +14,7 @@ attr_accessor :email
   
   
   def parse 
-    binding.pry 
+    #binding.pry 
    emails = @@allemail.join
    emails.split 
     ## "".split you can ONLY split a string!
