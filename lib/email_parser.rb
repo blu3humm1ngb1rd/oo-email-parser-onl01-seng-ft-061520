@@ -20,7 +20,7 @@ attr_accessor :email
    email_array = emails.split(/, | /) 
     ## "".split you can ONLY split a string!
     
-    email_array.detect 
+    email_array.detect{|email| email ==  }
     
     
   end 
