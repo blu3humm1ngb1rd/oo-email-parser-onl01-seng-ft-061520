@@ -16,7 +16,7 @@ attr_accessor :email
    #binding.pry 
    
    email_array = email.split(/, | /) 
-   email_array.detect{|email| email == email}
+   
   end 
   
 end 
