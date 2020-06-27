@@ -23,6 +23,6 @@ attr_accessor :email
     #email_array.detect{|email| email ==  }
     
     
-  end 
+  #end 
   
 end 
